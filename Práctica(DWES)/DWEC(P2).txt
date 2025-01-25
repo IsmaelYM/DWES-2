@@ -1,0 +1,4 @@
+NINOS(#idNino, nombreNino, primerApellidoNino, segundoApellidoNino, fechaNacimientoNino, buenoMalo)
+REGALOS(#idRegalo, nombreRegalo, precioRegalo)
+REYESMAGOS(#idReyMago, nombreReyMago, idRegaloFK)
+ELEGIR(#idElegir, idNinoFK, idRegaloFK)
